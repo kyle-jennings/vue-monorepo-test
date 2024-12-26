@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"name": "lms-admin",
+			"path": "."
+		},
+		{
+			"name": "shared",
+			"path": "../shared"
+		},
+		{
+			"name": "buefy",
+			"path": "node_modules/buefy/src"
+		},
+		{
+			"name": "bulma",
+			"path": "node_modules/bulma-scss"
+		},
+		{
+			"name": "ui-components",
+			"path": "../ui-components/src"
+		}
+	]
+}

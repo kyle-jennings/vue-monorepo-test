@@ -1,0 +1,15 @@
+{
+  "extends": "../shared/configs/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "src/**/*.json",
+    "src/**/*.js",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
+  ],
+}

@@ -1,0 +1,19 @@
+{
+  "name": "package2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "vue-cli-service serve --port 3000",
+    "sync-assets": "node npm-scripts/post-install.js",
+    "build": "npm run sync-assets && vue-cli-service build"
+  },
+  "dependencies": {
+    "scorm-again": "^1.7.1",
+    "video.js": "^8.10.0",
+    "videojs-hotkeys": "^0.2.28",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-vuex": "~5.0.0"
+  }
+}

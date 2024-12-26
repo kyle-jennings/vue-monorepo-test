@@ -1,0 +1,54 @@
+{
+  "name": "front-end-app-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build:package2": "cd package2 && npm run build",
+    "build:package1": "cd package1 && npm run build",
+    "start:package2": "cd package2 && npm start",
+    "start:package1": "cd package1 && npm start"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@highcharts/map-collection": "^2.1.0",
+    "@tinymce/tinymce-vue": "^5.1.1",
+    "@vueuse/components": "^10.9.0",
+    "@vueuse/core": "^10.9.0",
+    "axios": "^1.6.7",
+    "buefy": "npm:@ntohq/buefy-next@^0.1.2",
+    "core-js": "^3.36.0",
+    "date-fns": "^3.3.1",
+    "fuzzy-search": "^3.2.1",
+    "highcharts": "^11.4.0",
+    "js-cookie": "^3.0.5",
+    "pinia": "^2.1.7",
+    "tiny-emitter": "^2.1.0",
+    "tinymce": "^6.8.3",
+    "ts-debounce": "^4.0.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "peerDependencies": {
+    "vue3-draggable": "^2.0.9"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-airbnb": "^6.0.0",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "bulma-scss": "^0.9.4",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-vue": "^8.0.3",
+    "eslint-plugin-vuejs-accessibility": "^1.1.0",
+    "merge-dirs": "^0.2.0",
+    "sass": "^1.71.1",
+    "sass-loader": "^14.1.1",
+    "typescript": "~4.8.4"
+  }
+}

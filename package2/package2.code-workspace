@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"name": "lms-learner",
+			"path": "."
+		},
+		{
+			"name": "buefy",
+			"path": "node_modules/buefy"
+		},
+
+		{
+			"name": "bulma",
+			"path": "node_modules/bulma-scss"
+		},
+
+		{
+			"name": "shared-lib",
+			"path": "../shared"
+		}
+	]
+}
